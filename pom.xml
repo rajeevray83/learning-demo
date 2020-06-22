@@ -13,11 +13,17 @@
         <version>1.5.8.RELEASE</version>
     </parent>
 <distributionManagement>
-    <repository>
-        <id>nexus</id>
-        <url>34.68.115.145:8081/maven-snapshots/</url>
-         </repository>
-        </distributionManagement>
+  <repository>
+    <id>releases</id>
+    <!-- CHANGE HERE by your team nexus server -->
+    <url>http://34.68.115.145:8081/nexus/content/repositories/releases/</url>
+  </repository>
+  <snapshotRepository>
+    <id>snapshots</id>
+    <!-- CHANGE HERE by your team nexus server -->
+    <url>http://34.68.115.145:8081/nexus/content/repositories/snapshots/</url>
+  </snapshotRepository>
+</distributionManagement>
    
         
     <dependencies>
