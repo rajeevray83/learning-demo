@@ -16,12 +16,12 @@
   <repository>
     <id>releases</id>
     <!-- CHANGE HERE by your team nexus server -->
-    <url>http://34.68.115.145:8081/nexus/content/repositories/releases/</url>
+    <url>http://34.67.26.49:8081/nexus/content/repositories/releases/</url>
   </repository>
   <snapshotRepository>
     <id>snapshots</id>
     <!-- CHANGE HERE by your team nexus server -->
-    <url>http://34.68.115.145:8081/nexus/content/repositories/snapshots/</url>
+    <url>http://34.67.26.49:8081/nexus/content/repositories/snapshots/</url>
   </snapshotRepository>
 </distributionManagement>
    
